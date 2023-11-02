@@ -40,7 +40,7 @@ const GetImage = (value) => {
     }
 
     return(
-      <button onClick={handleClick} id="fetch-image">Fetch</button>
+      <button onClick={handleClick} class="fetch-button">Fetch</button>
     )
   }
 
