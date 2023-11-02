@@ -4,13 +4,11 @@ const apiKey = "Uf9d5B4qejVvKyz06egbENSo0TTyfeDjDEQIlpH2";
 const url = "https://api.nasa.gov/planetary/apod?";
 
 let container = document.querySelector(".container");
-let button = document.getElementById("fetch-image");
+//let button = document.getElementById("fetch-image");
 
-button.addEventListener("click", () => {
-  GetImage("normal");
-});
 
-function GetImage(value) {
+const GetImage = (value) => {
+
     let imageContainer = document.querySelector(".image-container");
     imageContainer.remove();
   
@@ -36,6 +34,14 @@ function GetImage(value) {
         window.alert("Please enter the date in correct format.");
       }
     };
+
+    function handleClick (){
+      GetImage("normal");
+    }
+
+    return(
+      <button onClick={handleClick}>Fetch</button>
+    )
   }
 
   export default GetImage
