@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body{
-  
   background: linear-gradient(#190144, rgba(209, 182, 209, 0.973));
+  
 }
 
 .details-container{
@@ -17,6 +18,8 @@ body{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
+  background-image: url(spaceimg.jpg);
 }
 
 .details-container .details{
@@ -31,11 +34,20 @@ body{
   gap: 20px;
 }
 
+.title{
+  display: grid;
+  align-items: center;
+  grid-template-columns: ;
+  column-gap: 5px;
+}
+
 .details-container .title h1{
   color: #fff;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 46px;
+  font-family: 'Liquid', sans-serif;
+  font-weight: lighter;
+  font-size: 56px;
   opacity: 0.8;
+  
 }
 
 .details-container .details-input span{
@@ -69,6 +81,7 @@ body{
   padding: 50px;
   display: flex;
   justify-content: center;
+  background-image: url(spaceimg.jpg);
 }
 
 .image-container img{
