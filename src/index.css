@@ -5,13 +5,14 @@
 }
 
 body{
-  background-color: #190144;
+  
+  background: linear-gradient(#190144, rgba(209, 182, 209, 0.973));
 }
 
 .details-container{
   height: 300px;
   width: 100%;
-  background: radial-gradient(#190144, rgba(209, 182, 209, 0.973));
+  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -32,6 +33,7 @@ body{
 
 .details-container .title h1{
   color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 46px;
   opacity: 0.8;
 }
