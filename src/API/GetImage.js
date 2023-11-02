@@ -1,6 +1,6 @@
 import React from 'react'
 
-const apiKey = 'YOUR-KEY';
+const apiKey = "Uf9d5B4qejVvKyz06egbENSo0TTyfeDjDEQIlpH2";
 const url = "https://api.nasa.gov/planetary/apod?";
 
 let container = document.querySelector(".container");
@@ -28,12 +28,7 @@ function GetImage(value) {
     request.onload = function () {
       if (request.status === 200) {
         let data = JSON.parse(request.responseText);
-        let imageUrl;
-        if (value === "hd") {
-          imageUrl = data.hdurl;
-        } else {
-          imageUrl = data.url;
-        }
+        let imageUrl = data.url;
         let image = document.createElement("img");
         image.src = imageUrl;
         newImageContainer.append(image);
