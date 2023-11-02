@@ -1,6 +1,6 @@
 import React from 'react'
 
-const apiKey = "Uf9d5B4qejVvKyz06egbENSo0TTyfeDjDEQIlpH2";
+const apiKey = "API KEY";
 const url = "https://api.nasa.gov/planetary/apod?";
 
 let container = document.querySelector(".container");
