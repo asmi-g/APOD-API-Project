@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import GenerateImg from './Components/GenerateImg';
 import GetImage from './Components/GetImage';
 
 
