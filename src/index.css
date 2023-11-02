@@ -12,10 +12,6 @@ body{
   
 }
 
-.bg-img{
-  background-image: url(spaceimg.jpg);
-}
-
 .details-container{
   height: 300px;
   width: 100%;
@@ -24,7 +20,8 @@ body{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  
+
+  background-image: url(spaceimg.jpg);
   
 }
 
