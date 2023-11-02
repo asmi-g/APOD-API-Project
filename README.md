@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# Cosmic Coding: An Introduction to APIs and React
+✨ Women in Engineering Hackathon 2023 ✨
+
+## Getting Started
+
+First, check that you have the proper prerequisites:
+
+* [VSCode](https://code.visualstudio.com/download)
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or [Github for Desktop](https://desktop.github.com/)
+* [Node.js and npm](https://nodejs.org/en/download/current)
+* Live Server extension for VSCode
+
+Next, run the following commands:
+1. To install the packages and create your package-lock.json: `npm install`
+2. To start up the app: `npm start`
+
+A window will pop up in your browser with the link: [http://localhost:3000](http://localhost:3000). Alternatively, copy and paste the link to see it in your browser.
+
+Because of the VSCode extension, every time you save a file, it will reload the page with your new changes.
+
+Aaaaaaaaand you're done! Easy as pie.
+
+## Resources
+
+* [Font Family](https://www.cdnfonts.com/liquid.font)
+* [NASA API](https://api.nasa.gov/)
+* [Nasa-APOD-AJAX](https://github.com/AmanvC/Nasa-APOD-AJAX)
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +95,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
