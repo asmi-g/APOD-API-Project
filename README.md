@@ -10,7 +10,7 @@ First, check that you have the proper prerequisites:
 * [Node.js and npm](https://nodejs.org/en/download/current)
 * Live Server extension for VSCode
 
-Next, run the following commands:
+Next, run the following commands in your project directory using command prompt:
 1. To install the packages and create your package-lock.json: `npm install`
 2. To start up the app: `npm start`
 
@@ -19,6 +19,8 @@ A window will pop up in your browser with the link: [http://localhost:3000](http
 Because of the VSCode extension, every time you save a file, it will reload the page with your new changes.
 
 Aaaaaaaaand you're done! Easy as pie.
+
+➡️ To stop the program, in the same command prompt you started the program, go `Ctrl + c` and `Y` and the program will quit.
 
 ## Resources
 
