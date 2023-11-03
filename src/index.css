@@ -29,13 +29,13 @@ body{
 .details-container .details{
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .details-container .details-input{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .title{
@@ -77,19 +77,18 @@ body{
   cursor: pointer;
 }
 
-.fetch-button{
+/* .fetch-button{
   width: 150px;
   height: 30px;
   border-radius: 5px;
   font-size: 20px;
   border: none;
   cursor: pointer;
-  
-}
+} */
 
-.details-container button{
+/* .details-container button{
   transform: scale(0.95);
-}
+} */
 
 .image-container{
   padding: 50px;
@@ -100,4 +99,5 @@ body{
 
 .image-container img{
   width: 50%;
+  border: 10px double plum;
 }

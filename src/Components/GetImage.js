@@ -1,4 +1,8 @@
 import React from 'react'
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import { deepPurple } from '@mui/material/colors';
+import SearchIcon from '@mui/icons-material/Search';
 
 const apiKey = "Uf9d5B4qejVvKyz06egbENSo0TTyfeDjDEQIlpH2";
 const url = "https://api.nasa.gov/planetary/apod?";
@@ -6,6 +10,14 @@ const url = "https://api.nasa.gov/planetary/apod?";
 let container = document.querySelector(".container");
 //let button = document.getElementById("fetch-image");
 
+const ColorButton = styled(Button)(({ theme }) => ({
+  color: theme.palette.getContrastText(deepPurple[500]),
+  backgroundColor: deepPurple[500],
+  '&:hover': {
+    backgroundColor: deepPurple[700],
+  },
+  fontFamily: 'Liquid',
+}));
 
 const GetImage = (value) => {
 
@@ -40,7 +52,8 @@ const GetImage = (value) => {
     }
 
     return(
-      <button onClick={handleClick} class="fetch-button">Fetch</button>
+      // <button onClick={handleClick} class="fetch-button">Fetch</button>
+      <ColorButton onClick={handleClick} variant="contained" startIcon={<SearchIcon />} fontSize="large">Fetch</ColorButton>
     )
   }
 
